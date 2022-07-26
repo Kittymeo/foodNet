@@ -1,0 +1,14 @@
+<!-- 热门搜索 -->
+<view class="hmly-hot">
+	<!-- 提示标题 -->
+	<view class="hmly-title">
+
+		<view class="title-text">Get your location</view>
+	</view>
+	
+  <view class="search-bottom">
+    <view class="cancel" bindtap="doCancel">Cancel</view>
+    <view class="confirm" bindtap="gotoRecommend">Go</view>
+
+</view>
+</view>

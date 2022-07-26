@@ -1,0 +1,47 @@
+<block >
+	<view class="hmly-body" style="height:{{phoneHeight}}px">
+
+		<!-- 头像昵称部分 -->
+		<view class="hmly-top-bar">
+			<!-- 头像昵称 -->
+			<view class="hmly-user-img">
+				<open-data type="userAvatarUrl"></open-data>
+			</view>
+
+			<view class="hmly-user-nickname">
+				<view class="usernmae">
+					<view class="name">{{name}}</view> <!--真名-->
+					<open-data type="userNickName"></open-data>
+				</view>
+			</view>
+			
+		</view>
+		<!-- menu部分 -->
+		<view class="hmly-chioce">
+			<!-- 选项item -->
+
+			<view class="hmly-choice-item" bindtap="gototest" hover-class="hover">
+				<view class="">
+					<view style="margin-left:20rpx">我的信息</view>
+				</view>
+			</view>
+			<view class="hmly-choice-item" bindtap="gotointro" hover-class="hover">
+				<view class="">
+					<text style="margin-left:20rpx">我的认证</text>
+				</view>
+			</view>
+
+			<view class="hmly-choice-item" bindtap="personality" hover-class="hover">
+				<view class="">
+					<view style="margin-left:20rpx" >我的商店 </view>
+				</view>
+			</view>
+
+			<view class="hmly-choice-item" bindtap="gotoLogin" hover-class="hover">
+				<view class="">
+					<view style="margin-left:20rpx">Log Out</view>
+				</view>	
+			</view>
+		</view>
+	</view>
+</block>

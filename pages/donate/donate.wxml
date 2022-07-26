@@ -1,0 +1,29 @@
+<view class="body">
+	<view class="description">
+		<view class="storeName">今日物资</view>
+		
+	
+		
+		<view class="itemHeader">
+			<view class="allItems">已输入</view>
+			
+		</view>
+		
+		
+		<view class="itemContainer">
+			<view class="item">
+			
+			</view>
+			<view class="item"></view>
+			<view class="item"></view>
+		</view>
+		<view class="storeAddress">请输入物品详情</view>
+
+	
+	</view>
+
+
+	<view class="donateContainer">
+		<view class="update" bindtap="update">Update</view>
+	</view>	
+</view>

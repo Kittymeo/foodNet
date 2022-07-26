@@ -1,0 +1,93 @@
+/* pages/test/test.wxss */
+@font-face{
+	font-family: 'Nunito', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+}
+.body{
+  margin:50rpx;
+  font-family: 'Nunito';
+  height: 100%;
+}
+
+.title{
+  display:block;
+  font-size: 50rpx;
+  font-weight: bold;
+  margin-bottom: 70rpx;
+  margin-top: 150rpx;
+}
+.question{
+  font-size: 40rpx;
+  font-weight: bold;
+  height: 200rpx;
+}
+
+.ans-sheet{
+  margin-bottom: 200px;
+  height: 50%;
+}
+
+.ans1{
+  display: block;
+  border-radius: 20rpx;
+  border: solid #A7A7A7 1px;
+  margin-top: 30rpx;
+  padding: 10rpx;
+  height: 80rpx;
+  font-size: 17px;
+  width: 100%;
+}
+
+.ans2{
+  display: block;
+  border-radius: 20rpx;
+  border: solid #A7A7A7 1px;
+  margin-top: 30rpx;
+  padding: 10rpx;
+  height: 80rpx;
+  font-size: 17px;
+  width: 100%;
+}
+
+.on_return{
+  float: left;
+  text-align: center;
+  border-radius: 20rpx;
+  border: solid #A7A7A7 1px;
+  height: 60rpx;
+  font-size: 17px;
+  width: 300rpx;
+  margin-bottom: 30rpx;
+  padding: 8rpx;
+  box-shadow: 0 6rpx 10rpx 2rpx #A7A7A7;
+}
+
+.blank{
+  float: left;
+  height: 60rpx;
+  width: 300rpx;
+}
+
+.on_skip{
+  float: right; 
+  display: block; 
+  font-size: 17px;
+  text-align: center;
+  font-size: 17px;
+  padding: 8rpx;
+  border-radius: 20rpx;
+  border: solid #A7A7A7 1px;
+  height: 60rpx;
+  width: 300rpx;
+  box-shadow: 0 6rpx 10rpx 2rpx #A7A7A7;
+}
+
+.hover{
+  background-color: #FFBF67;
+  border: solid 1px #FFBF67;
+}
+.btn-hover{
+  background-color: #5C4DB1;
+  border-color: #5C4DB1;
+  color: #FFBF67;
+}

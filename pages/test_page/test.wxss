@@ -1,0 +1,131 @@
+@font-face{
+	font-family: 'Nunito', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap");
+}
+
+.Header{
+  margin-top: 5rpx;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bold;
+  margin-left: 40rpx;
+}
+.name{
+  display: flex;
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+}
+.username{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-left: 40rpx;
+}
+
+.userNickName{
+  font-weight: bold;
+}
+
+.font{
+  font-family: 'Nunito';
+}
+
+.background-img{
+  background-image: url("https://lh3.googleusercontent.com/zngNPv-XTK7xNI0axrJhe9DuVEQrGAlKpFesp2KWGjtznzf8xhK1XTn39HpAIKTC-uvGhjiOIZaDXxkecG66YwbCBgrWvYyQDLYfYf8c7XDMVgTZScKX-pQ3PeVtJukYZMQViwlJ=w2400");
+  background-size: 100% 100%;
+  height: 208px;
+  width: 390px;
+}
+
+.Header1{
+  margin-top: 25rpx;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bold;
+  margin-left: 40rpx;
+
+}
+.blank{
+  height: 25%;
+}
+
+.userAvatarUrl{
+  border-radius: 50%;
+}
+
+.hmly-top-bar{
+  display:block;
+  background-color: white;
+  position: relative;
+}
+
+.margin{
+  margin-bottom: 50rpx;
+  color: white;
+}
+
+.Header2{
+  margin-top: 25rpx;
+  font-size: 30rpx;
+  color: black;
+  font-weight: bold;
+  margin-left: 40rpx;
+}
+.blank{
+  height: 25%;
+}
+.hmly-user-img{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.tags{
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: black;
+  font-weight: blod;
+  margin-bottom: 20rpx;
+  margin-left: 40rpx;
+  display: inline-block;
+  border-radius: 10rpx;
+  background-color: #DFDEFF;
+  padding: 10rpx;
+  box-shadow: 0 5rpx 10rpx 1rpx #A7A7A7;
+}
+.align{
+  float: left;
+  width: 50%;
+  border-top: solid 1px  #A7A7A7;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  padding-top:20px;
+}
+.name {
+  text-align: center;
+  padding-top:10px;
+}
+
+
+
+button{
+  background: #EA5149;
+  width: 60%;
+  margin-top: 100px;
+  color: #ffffff;
+}
+

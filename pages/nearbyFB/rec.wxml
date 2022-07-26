@@ -1,0 +1,43 @@
+<view class="body">
+    <scroll-view scroll-y="true" class="scroll-block">
+<!-- <image class="map" src="https://www.google.com/maps/d/thumbnail?mid=1q6YFk25kTvIU6nbF3-5vzo5CXFk" mode="widthFix"></image> -->
+
+
+    <!-- <view>
+        获取当前位置(需要申请权限)
+    </view> -->
+
+    <view class="enterLocation">
+        输入一个位置
+    </view> 
+    
+    <view> 
+        <!-- include points  -->
+        <map
+        class="map"
+        id="map"
+        latitude="{{setting.latitude}}"
+        longitude="{{setting.longitude}}"
+        markers="{{markers}}"
+        scale="{{seting.scale}}"
+        setting="{{setting}}"
+        enable-zoom="{{true}}"
+        enable-scroll="{{true}}"
+        > </map>
+    </view>
+    
+    <view class="circle" bindtap="goMyStore">My store</view>
+    <view>
+        <view class="distance">5 km 以内</view>
+        <!-- <view class="circle" bindtap="goMyStore">My store</view> -->
+        <view class="stores" bindtap="goStore">
+            <view class="storeName">Southwark</view>
+            <view class="storeDistance">2.1 km away</view>
+            <view class="storeAddress">185 Freeman St Brookline MA 02446</view>
+            <view class="storeMore">More info ></view>
+        </view>
+    
+    </view>
+</scroll-view>
+
+</view>

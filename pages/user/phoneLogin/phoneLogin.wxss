@@ -1,0 +1,45 @@
+@font-face{
+	font-family: 'Nunito', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+}
+.hmly-main bg-white{
+	font-family: 'Nunito';
+}
+
+.hmly-main {
+	width: 100%;
+}
+
+.hmly-wecaht-login {
+	height: 100%;
+	margin-top: 350rpx;
+	border: 0rpx;
+	text-align: center;
+}
+
+.hmly-wecaht-login image{
+	height: 150px;
+	width:320px;
+	display: block;
+	margin: auto;
+}
+
+.login-button {
+	width: 400rpx;
+	height: 85rpx;
+	border-radius: 30rpx;
+	background-color: #fff;
+	border: solid #5C4DB1 2rpx;
+	color: #5C4DB1;
+	margin: 30rpx;
+	padding: 5px;
+}
+
+.icon-text{
+	font-size: 38rpx;
+}
+
+.hover{
+	background-color: #5C4DB1;
+	color: #FFBF67;
+}

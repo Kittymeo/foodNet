@@ -1,0 +1,102 @@
+/* pages/recommend/recommend.wxss */
+@font-face{
+	font-family: 'Nunito', sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+}
+.body{
+	font-family: 'Nunito';
+	background:#f5f3fa;
+}
+
+.description{
+	margin:30rpx;
+	height: auto;
+	border-radius: 20rpx;
+	background-color: white;
+	padding: 30rpx;
+	justify-content: center;
+	
+}
+.storeName{
+	color:#13124b;
+	font-size: larger;
+	font-weight: 900;
+}
+.storeDistance{
+	margin: 10rpx;
+	font-size: small;
+	color:#6564f1;
+
+}
+.storeAddress{
+	font-weight: 400;
+	color:#7c7a94;
+}
+.bigContainer{
+	background: blue;
+	margin:30rpx;
+	height: auto;
+	border-radius: 20rpx;
+	background-color: white;
+	padding: 30rpx;
+	justify-content: center;
+}
+.itemContainer{
+
+}
+.itemHeader{
+	display: flex;
+	flex-direction: row;
+	position:relative;
+	
+}
+.allItems{
+	color:#13124b;
+	
+	margin-left: 20rpx;
+}
+.sortBy{
+	color:#13124b;
+	position: absolute;
+	right: 10rpx;
+	
+	align-items: center;
+}
+.item{
+	
+	height: 200rpx;
+	width:90%;
+	margin: 20rpx auto;
+	border-radius: 20rpx;
+	box-sizing: border-box;
+	text-align: left;
+	box-shadow: 0 5rpx 10rpx 1rpx #A7A7A7;
+}
+
+
+
+
+
+
+
+
+.donateContainer{
+	position: fixed;
+	bottom: 50rpx;
+
+	width: 100%;
+	
+}
+.donate{
+	margin: 0 auto;
+	width: 25%;
+	background: #4b4bc2;
+	color:white;
+	text-align: center;
+	display: flex;
+	
+	padding: 20rpx;
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+	border-radius: 20rpx;
+}

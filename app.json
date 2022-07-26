@@ -1,0 +1,83 @@
+{
+  "pages":[
+    "pages/user/phoneLogin/phoneLogin",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/saves/saves",
+    "pages/recommend/recommend",
+    "pages/detail_page/detail",
+    "pages/lina/lina",
+    "pages/nearbyFB/rec",
+    "pages/storeDetail/storeDetail",
+    "pages/donate/donate"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages":[
+        "pages/intros/intros"
+      ]
+    },
+    {
+      "root": "packageB",
+      "pages":[
+        "pages/result/result"
+      ]
+    },
+    {
+      "root": "packageC",
+      "pages":[
+        "pages/personality/personality",
+        "pages/result2/result2"
+      ]
+    },
+    {
+      "root":"packageD",
+      "pages":[
+        "pages/logs/logs"
+      ]
+    }
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#5C4DB1",
+    "navigationBarTitleText": "FoodNet",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#5C4DB1",
+    "selectedColor": "#FFBF67",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "/image/home_icon.png",
+        "selectedIconPath": "/image/home_icon_yellow-01.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "all",
+        "iconPath": "/image/search.png",
+        "selectedIconPath": "/image/Icon yellow-01.png"
+      },
+      
+      {
+        "pagePath": "pages/saves/saves",
+        "text": "notification",
+        "iconPath": "/image/collection-icon.png",
+        "selectedIconPath": "/image/save_web_icon_yellow-01.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "Profile",
+        "iconPath": "/image/profile_icon-01.png",
+        "selectedIconPath": "/image/profile_icon_yellow-01.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,68 @@
+<view class="font">
+<block>
+	<view class="hmly-body" style="height:{{phoneHeight}}px">
+
+		<!-- 头像昵称部分 -->
+		<view class="hmly-top-bar">
+			<!-- 头像昵称 -->
+      <!--<image class="background-img" src="/image/头像背景.jpg"></image>-->
+      <view class="background-img">
+      <view class="blank"></view>
+			<view class="hmly-user-img">
+				<open-data type="userAvatarUrl" src="https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132"></open-data>
+			</view>
+      </view>
+			<view class="hmly-user-nickname">
+        <view class="name">Name: {{name}}</view>
+				<view class="username">WeChat Nickname: 
+					<open-data type="userNickName"></open-data>
+				</view>
+			</view>
+			
+    <view class="background">
+    <view class="Header">School: Boston University </view>
+    <view class="Header">School Year: 2022</view>
+    
+    <view class="border">
+    <view class="align">
+    <view class="Header1">My Location</view>
+    <view class="tags">Fenway</view>     
+    <view class="tags">Kenmore</view>
+
+    <view class="Header1">Housing Style/Status</view>
+    <view class="tags">Apartment</view>
+    <view class="tags">Staying</view>
+    </view>
+    <view class="align">
+    <view class="Header1">Housing Duration</view>
+    <view class="tags">Full School Year</view>
+
+    <view class="Header1">My Personality</view>
+    <view class="tags">{{mbti}}</view>
+    </view>
+
+    <view class="Header1">My Life Style</view>
+    <view class="tags">Pets Friendly</view>
+    <view class="tags">Non Drinker</view>
+    <view class="tags">Neat</view>
+    </view>
+
+    <view class="Header2">My Life Style Preference</view>
+    <view class="tags">Pets Friendly</view>
+    <view class="tags">Non Drinker</view>
+    <view class="tags">Neat</view>
+    <view class="tags">Flexible Sleep Time</view>
+    <view class="tags">Non Smoker</view>
+    <view class="tags">Overnight Guest</view>
+
+    <view class="Header2">My Housing Preference</view>
+    <view class="tags">{{campus.Item_Name}}</view>
+    <view class="tags">Single Room</view>
+    <view class="tags">Apartment</view>
+
+    <view class="margin">margin</view>
+  </view>
+		</view>
+    </view>
+</block>
+</view>

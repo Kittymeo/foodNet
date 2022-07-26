@@ -1,0 +1,30 @@
+<view class="body">
+	<view class="description">
+		<view class="storeName">Southwark</view>
+		<view class="storeDistance">2.1 km away</view>
+		<view class="storeAddress">185 Freeman St Brookline MA 02446</view>
+	</view>
+	<view class="bigContainer">
+		
+		<view class="itemHeader">
+			<view class="allItems">All items</view>
+			<view class="sortBy">Sort by</view>
+		</view>
+		
+		
+		<view class="itemContainer">
+			<view class="item">
+			
+			</view>
+			<view class="item"></view>
+			<view class="item"></view>
+		</view>
+
+	
+	</view>
+
+
+	<view class="donateContainer">
+		<view class="donate" bindtap="goDonate">开启今日捐献</view>
+	</view>	
+</view>

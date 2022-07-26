@@ -1,0 +1,23 @@
+<!--pages/test/test.wxml-->
+<progress percent="{{(id+1)*100/numOfAll}}" stroke-width="12" color="#FFBF67" />
+
+<view class="body">
+
+
+  <view class="title">Question {{(id+1)}}/87</view>
+<view class="question">
+  <text wx:if="{{id < numOfAll}}">{{question[qid]}}</text>
+</view>
+
+  <view class="ans-sheet">
+    <view wx:if="{{id < numOfAll}}" class="ans1" hover-class="hover" hover-stay-time="100" data-id="{{id}}" data-bool="{{true}}" bindtap="on_ans">{{ans[id].ans1}}</view>
+    <view wx:if="{{id < numOfAll}}" class="ans2" hover-class="hover" hover-stay-time="100" data-id="{{id}}" data-bool="{{false}}" bindtap="on_ans">{{ans[id].ans2}}</view>
+  </view>
+
+  <text hidden="{{id!=0}}" class="blank"></text>
+
+  <view wx:if="{{id != 0}}" hidden="{{!boolReturn}}" class="on_return" catchtap="on_return" hover-class="btn-hover" hover-stay-time="100" data-id='{{id}}'>Previous</view>
+
+  <view class="on_skip" hover-class="btn-hover" hover-stay-time="100" hidden="{{!boolSkip}}" catchtap="on_skip" data-id="{{id}}">Skip</view>
+
+</view>
